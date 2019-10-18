@@ -6,8 +6,8 @@ import statistics as stat
 import numpy as np
 import pandas as pd
 
-API_KEY = "PKPPCUJ24CVB8XMCOL1P"
-API_SECRET = "7jEBh83xykaVDV0iMfT4pIN3P6nakUVHxpOohXWy"
+API_KEY = "CHANGE_ME"
+API_SECRET = "CHANGE_ME"
 APCA_API_BASE_URL = "https://paper-api.alpaca.markets"
 alpaca = tradeapi.REST(API_KEY, API_SECRET, APCA_API_BASE_URL, 'v2')
 
